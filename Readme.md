@@ -16,7 +16,7 @@ This repository contains some basic sql files pushed from local repository. Basi
 
 > Types of SQL commands
 
-> Starting with slect and basic DML commands
+> Starting with select and basic DML commands
  - SELECT- WHERE
  - ORDER BY - LIMIT
  - GROUP BY
