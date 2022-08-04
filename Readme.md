@@ -23,5 +23,8 @@ This repository contains some basic sql files pushed from local repository. Basi
  - HAVING
 
 > JOINS
+- Aliases
+- Inner join, outer join, left join, right join.
+- Union
 
  
