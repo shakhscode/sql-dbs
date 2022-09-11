@@ -1,0 +1,2 @@
+ALTER TABLE exTab1 
+RENAME TO table1
