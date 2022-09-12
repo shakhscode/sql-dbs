@@ -16,7 +16,7 @@ This repository contains some basic sql files pushed from local repository. Basi
 
 > Types of SQL commands
 
-> Starting with select and basic DML commands
+> Starting with select and basic commands
  - SELECT- WHERE
  - ORDER BY - LIMIT
  - GROUP BY
@@ -27,4 +27,26 @@ This repository contains some basic sql files pushed from local repository. Basi
 - Inner join, outer join, left join, right join.
 - Union
 
+> Timestamp and Extract functions.
+
+>Mathematical functions.
+
+> Sub query
+
+> Self join
+
+> Data defination language
+- Data types.
+- Primary key and foreign key.
+- Constrains - column and table constrains.
+- Default and Check constrains.
+- CREATE, ALTER, DROP, TRUNCATE a table.
+- Differences between DELETE,TRUNCATE, DROP.
+
+> Data manipulation language.
+
+- INSERT
+- UPDATE
+- DELETE
+- MERGE
  
