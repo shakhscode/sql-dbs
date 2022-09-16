@@ -50,3 +50,15 @@ This repository contains some basic sql files pushed from local repository. Basi
 - DELETE
 - MERGE
  
+ 
+ > Conditional queries
+ - CASE END
+ - COALESCE
+ - CAST
+ - NULLIF
+ - VIEWS
+ 
+ ** Additional Topics**
+ 
+ 
+ 
