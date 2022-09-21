@@ -27,21 +27,23 @@ Data, Database , Server, Host, DBMS, RDBMS and N-RDBMS
 - MERGE
 
 ## 3. Data Query language.
- - SELECT- WHERE
- - GROUP BY
- - ORDER BY - LIMIT
- - HAVING
+ - SELECT : SELECT * FROM table_name;
 
- ### Sequence of execution:
+ ## 4. Common SQL commands
+#### Sequence of execution:
 
+ **Follow job_rules where given highest salary and opportunities.
+ (F-J-W-G-H-S-O)**
 
-## 4. JOINS
+- JOINS: Types of joins
+- UNION and self JOIN
+- WHERE (WHERE -AND, OR, NOT, LIKE,ILIKE)
+- GROUP BY
+- HAVING
+- ORDER BY - LIMIT
 - Aliases
-- Inner join, outer join, left join, right join.
-- Self Join
-- Union
 
-## 5. Additional Concepts
+## 5. Additional Concepts and Functions
 - Timestamp and Extract functions.
 
 - Mathematical functions.
