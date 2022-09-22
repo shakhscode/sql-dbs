@@ -36,7 +36,7 @@ Data, Database , Server, Host, DBMS, RDBMS and N-RDBMS
  (F-J-W-G-H-S-O)**
 
 - JOINS: Types of joins
-- UNION and self JOIN
+- Self JOIN and UNION
 - WHERE (WHERE -AND, OR, NOT, LIKE,ILIKE)
 - GROUP BY
 - HAVING
@@ -45,10 +45,10 @@ Data, Database , Server, Host, DBMS, RDBMS and N-RDBMS
 
 ## 5. Additional Concepts and Functions
 - Timestamp and Extract functions.
-
 - Mathematical functions.
-
+- String functions and operations.
 - Sub query
+- Window funcions
 
  ## 6. Procedural SQL (pl-sql)
  
