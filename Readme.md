@@ -43,12 +43,19 @@ Data, Database , Server, Host, DBMS, RDBMS and N-RDBMS
 - ORDER BY - LIMIT
 - Aliases
 
-## 5. Additional Concepts and Functions
+## 5. Advanced Concepts and Functions
+
+### Sub query
+### Window functions
+- Aggregate window functions vs standard aggregate function.
+- Ranking window functions-**ROW_NUMBER(), RANK(), DENSE_RANK()**
+
+### Other functions
 - Timestamp and Extract functions.
 - Mathematical functions.
 - String functions and operations.
-- Sub query
-- Window funcions
+
+### Conditional statements
 
  ## 6. Procedural SQL (pl-sql)
  
