@@ -49,6 +49,8 @@ Data, Database , Server, Host, DBMS, RDBMS and N-RDBMS
 ### Window functions
 - Aggregate window functions vs standard aggregate function.
 - Ranking window functions-**ROW_NUMBER(), RANK(), DENSE_RANK()**
+- More ranking functions- NTILE(), CUME_DIST(), PERCENT_RANK()
+- Value functions - LAG(), LEAD(), FIRST_VALUE(), LAST_VALUE(), NTH_VALUE()
 
 ### Other functions
 - Timestamp and Extract functions.
@@ -56,6 +58,16 @@ Data, Database , Server, Host, DBMS, RDBMS and N-RDBMS
 - String functions and operations.
 
 ### Conditional statements
+
+
+## Common Interview topics
+### Differences
+- WHERE vs HAVING
+- IN vs EXISTS
+- JOIN vs SubQuery 
+- JOIN vs UNION
+- UNION vs UNION ALL
+- GROUP BY vs ORDER by
 
  ## 6. Procedural SQL (pl-sql)
  
