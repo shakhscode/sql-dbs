@@ -76,3 +76,39 @@ where id in (select t1.id
 select model,brand , count(*)
 from cars
 group by model, brand
+
+
+--Way 3: Using window functions
+--first run the procedure to create and add data
+call create_add_data()
+
+--check for duplicates
+select model,brand , count(*)
+from cars
+group by model, brand
+
+--Remove duplicate rows keeping only one using a window function
+delete from cars 
+where id in 
+          (select id
+           from 
+                (select id,row_number() over(partition by model, brand) as rowcount
+                 from cars) x
+           where x.rowcount >1)
+		   
+--Now check the duplicate status
+select model,brand , count(*)
+from cars
+group by model, brand
+
+--Way 4: Create a new table with all unique values. Then delete the actual table.
+--Not a good idea
+
+
+***When there is no primary or unique column in a table***
+--Way 5: Using CTID, which is created by default by PostgreSQL
+-- This is helpful when there is no primary key in a table.
+--Use the CTID as the primary key and follow Way 2 or Way 3
+
+--Way 6: Create a unique id column and follow rest of the steps.
+
