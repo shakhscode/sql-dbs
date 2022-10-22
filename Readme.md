@@ -54,7 +54,7 @@ Data, Database , Server, Host, DBMS, RDBMS and N-RDBMS
 ## 4. Advanced Concepts and Functions
 
 #### 4.1 Sub query
-#### 4.2 WITH Clause
+#### 4.2 WITH CTE as (Select ----)
 #### 4.3 Window functions
 - Aggregate window functions vs standard aggregate function.
 - Ranking window functions-**ROW_NUMBER(), RANK(), DENSE_RANK()**
